@@ -2,7 +2,12 @@
 public class archivio 
 {
 	private int indice = 0;
-	private persona [] listapersone = new persona[10];
+	private persona [] listapersone;
+	
+	public archivio(int dimensione) 
+	{
+		listapersone = new persona[dimensione];
+	}
 	
 	public boolean aggPersona(persona p)
 	{
