@@ -3,10 +3,10 @@ package Facebook;
 public class foto 
 {
 	String titolo;
-	String tag;
+	boolean tag = false;
 	
 	
-	public foto(String titolo, String tag) 
+	public foto(String titolo, boolean tag) 
 	{
 		this.titolo = titolo;
 		this.tag = tag;
